@@ -69,7 +69,15 @@ Total documents in DB: 250
 ```bash
 streamlit run app.py
 ```
-`// note: this could take 30-60 seconds to show the interface`
+### First Launch Takes ~1 Minute
+
+**This is normal!** The first time you run `streamlit run app.py`, you'll see a loading screen for 30-60 seconds.
+
+**Why?**
+- The AI embedding model (~500MB) needs to load into memory
+- The vector database connects and indexes documents
+- The search engine initializes with BM25 indexing
+- Ollama LLM connection is established
 
 This opens a web interface at `http://localhost:8501`
 
