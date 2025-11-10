@@ -69,7 +69,7 @@ Total documents in DB: 250
 ```bash
 streamlit run app.py
 ```
-<!-- it could take 10 seconds to show the interface -->
+`// note: this could take 10 seconds to show the interface`
 
 This opens a web interface at `http://localhost:8501`
 
