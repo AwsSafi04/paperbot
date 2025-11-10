@@ -9,9 +9,7 @@ AI-powered research assistant that answers questions about research papers using
 - **Source Citations**: Shows which papers answers come from
 
 ## Architecture
-PDF Files → Parser → Chunker → Embeddings → Vector DB
-                                                ↓
-                            User Question → Retriever → LLM → Answer with Sources                  
+PDF Files → Parser → Chunker → Embeddings → Vector DB → User Question → Retriever → LLM → Answer with Sources                  
 
 ## Prerequisites
 - Python 3.8+
